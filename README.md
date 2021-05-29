@@ -1,2 +1,2 @@
 # COVID19 data from Canarias Datos Abiertos
-It takes and merge daily data about incidence in Canary Islands.
+It takes and merge daily data about incidence in Canary Islands per municipio.
