@@ -6,7 +6,8 @@ date_time="$(date)"
 echo $date_time >>  $log_file
 
 # Get data
-python3 $script >> $log_file
+#python3 $script >> $log_file
+python3 /home/pi/covid_canarias_data/get_covid_daily_data.py >> $log_file
 
 # Upload data
 cd $path
