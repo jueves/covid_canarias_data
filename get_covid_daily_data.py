@@ -12,7 +12,7 @@ import requests
 names_list = [
   {
     "url":"https://opendata.sitcan.es/upload/sanidad/cv19_municipio-asignacion_casos_municipios.csv",
-    "file_name":"data/cv19_asignacion_agrupados.csv"},
+    "file_name":"data/cv19_asignacion_agrupados_collected.csv"},
   {
     "url":"https://opendata.sitcan.es/upload/sanidad/cv19_municipio-residencia_casos.csv",
     "file_name":"data/cv19_residencia.csv"
@@ -50,5 +50,5 @@ def download_data(names):
 
 
 update_data(names_list[0])
-download_data(names_list[1])
-download_data(names_list[2])
+#download_data(names_list[1])
+#download_data(names_list[2])
